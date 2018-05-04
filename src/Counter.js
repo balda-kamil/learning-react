@@ -16,7 +16,7 @@ class Counter extends Component {
         <button onClick={this.increment.bind(this)}>+</button>
         <button onClick={this.decrement.bind(this)}>-</button><br />
         <output>Kliknięć Łącznie{this.state.totalClicks}</output><br />
-        <output ondblclick={this.dblClick.bind(this)}>Licznik {this.state.counter}</output><br />
+        <output onDoubleClick={this.dblClick.bind(this)}>Licznik {this.state.counter}</output><br />
         <output>Podwójnych kliknięć: {this.state.doubleClicks}</output>
       </div>
     );
